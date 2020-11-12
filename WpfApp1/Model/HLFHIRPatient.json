@@ -1,0 +1,935 @@
+{
+  "resourceType": "Bundle",
+  "type": "searchset",
+  "entry": [
+    {
+      "fullUrl": "https://vonk.fire.ly/Patient/58689c4c-daf4-450b-a1ca-7c1846bb65b5",
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "resourceType": "Patient",
+        "name": [
+          {
+            "family": "Baltus",
+            "given": [
+              "Mirjam"
+            ]
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1974-04-07",
+        "id": "58689c4c-daf4-450b-a1ca-7c1846bb65b5",
+        "meta": {
+          "versionId": "6d254643-8cb9-45aa-b494-a4d889892076",
+          "lastUpdated": "2019-11-07T05:14:30.654+00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://vonk.fire.ly/Patient/67bfa3bb-5ec6-4ec5-be77-a627f2c96d9b",
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "resourceType": "Patient",
+        "meta": {
+          "tag": [
+            {
+              "system": "http://www.alpha.alp/use-case",
+              "code": "Adam"
+            }
+          ],
+          "versionId": "b35518dd-9442-40bc-af95-ae9848635807",
+          "lastUpdated": "2019-11-06T08:54:53.507+00:00"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b> Patient: </b> CIN IMA, M, 1987-02-16, Nat.id 6070809010, AlphaId 6070809011\n      </p></div>"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/birthPlace",
+            "valueAddress": {
+              "city": "Portsmouth",
+              "country": "UK"
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-disability",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "95859009",
+                  "display": "Amputation of foot"
+                }
+              ]
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://www.miniaf.alp/citreg",
+            "value": "6070809010"
+          },
+          {
+            "system": "http://www.alpha-hospital.alp/patient-id",
+            "value": "6070809011"
+          }
+        ],
+        "name": [
+          {
+            "family": "CIN",
+            "given": [
+              "Ima"
+            ],
+            "prefix": [
+              "Mr."
+            ]
+          },
+          {
+            "use": "old",
+            "family": "Jones"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "020 7422 3666",
+            "use": "home"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1987-02-16",
+        "address": [
+          {
+            "line": [
+              "62, Anystreet"
+            ],
+            "city": "Alphatown",
+            "postalCode": "59450"
+          }
+        ],
+        "communication": [
+          {
+            "language": {
+              "coding": [
+                {
+                  "system": "urn:ietf:bcp:47",
+                  "code": "en",
+                  "display": "English"
+                }
+              ]
+            }
+          },
+          {
+            "language": {
+              "coding": [
+                {
+                  "system": "urn:ietf:bcp:47",
+                  "code": "fr",
+                  "display": "French"
+                }
+              ]
+            },
+            "preferred": true
+          }
+        ],
+        "id": "67bfa3bb-5ec6-4ec5-be77-a627f2c96d9b"
+      }
+    },
+    {
+      "fullUrl": "https://vonk.fire.ly/Patient/1b3308e5-d246-41b5-91f6-653606367ea0",
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "resourceType": "Patient",
+        "identifier": [
+          {
+            "system": "http://www.bc_acme.com/Identifier",
+            "value": "urn:uuid:158dd16b-f7bb-4c28-8d57-3630f9e04027"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Mitchell",
+            "given": [
+              "Rebecca",
+              "Betty"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "1471623845",
+            "use": "home"
+          },
+          {
+            "system": "phone",
+            "value": "3140076537",
+            "use": "work"
+          },
+          {
+            "system": "email",
+            "value": "Helen760@jessica.net",
+            "use": "home"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1953-11-02",
+        "address": [
+          {
+            "line": [
+              "6564 Pine St."
+            ],
+            "city": "Long Beach"
+          }
+        ],
+        "id": "1b3308e5-d246-41b5-91f6-653606367ea0",
+        "meta": {
+          "versionId": "d83c82df-6dc1-49fd-8cb1-fa73ab858159",
+          "lastUpdated": "2019-11-03T03:56:22.095+00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://vonk.fire.ly/Patient/1a707c0f-7d03-4cd3-9096-e88de544dd08",
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "resourceType": "Patient",
+        "identifier": [
+          {
+            "system": "http://www.bc_acme.com/Identifier",
+            "value": "urn:uuid:9ab838a2-2ec1-4e40-825c-16f839cf748e"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Hernandez",
+            "given": [
+              "Stephen",
+              "Angela"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "7066085841",
+            "use": "home"
+          },
+          {
+            "system": "phone",
+            "value": "8606358873",
+            "use": "work"
+          },
+          {
+            "system": "email",
+            "value": "Rebecca423@laura.net",
+            "use": "home"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1968-11-02",
+        "address": [
+          {
+            "line": [
+              "7343 Main St."
+            ],
+            "city": "Washington"
+          }
+        ],
+        "id": "1a707c0f-7d03-4cd3-9096-e88de544dd08",
+        "meta": {
+          "versionId": "27ef29b6-5b5a-4732-8ad9-24045e9a76cb",
+          "lastUpdated": "2019-11-03T03:34:13.955+00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://vonk.fire.ly/Patient/5f58ebd5-114e-462d-bb36-c6c15f689750",
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "resourceType": "Patient",
+        "meta": {
+          "tag": [
+            {
+              "system": "http://www.alpha.alp/use-case",
+              "code": "Audrey"
+            }
+          ],
+          "versionId": "92b3c6f0-625e-4f5d-9b59-2b3adc90a9ff",
+          "lastUpdated": "2019-11-01T19:42:44.431+00:00"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/birthPlace",
+            "valueAddress": {
+              "city": "Depew",
+              "country": "UK"
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-disability",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "95859009",
+                  "display": "Amputation of foot"
+                }
+              ]
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://www.miniaf.alp/citreg",
+            "value": "9822"
+          },
+          {
+            "system": "http://www.alpha-hospital.alp/patient-id",
+            "value": "9822"
+          }
+        ],
+        "name": [
+          {
+            "family": "Everywoman",
+            "given": [
+              "Audrey"
+            ],
+            "prefix": [
+              "Mrs."
+            ]
+          },
+          {
+            "use": "old",
+            "family": "Jones"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "020 7422 3666",
+            "use": "home"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1955-01-01",
+        "address": [
+          {
+            "line": [
+              "62, Anystreet"
+            ],
+            "city": "Depew",
+            "postalCode": "59450"
+          }
+        ],
+        "communication": [
+          {
+            "language": {
+              "coding": [
+                {
+                  "system": "urn:ietf:bcp:47",
+                  "code": "en",
+                  "display": "English"
+                }
+              ]
+            }
+          },
+          {
+            "language": {
+              "coding": [
+                {
+                  "system": "urn:ietf:bcp:47",
+                  "code": "fr",
+                  "display": "French"
+                }
+              ]
+            },
+            "preferred": true
+          }
+        ],
+        "id": "5f58ebd5-114e-462d-bb36-c6c15f689750"
+      }
+    },
+    {
+      "fullUrl": "https://vonk.fire.ly/Patient/f3a9bc22-062e-459b-88aa-04b199489208",
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "resourceType": "Patient",
+        "meta": {
+          "tag": [
+            {
+              "system": "http://www.alpha.alp/use-case",
+              "code": "Alan"
+            }
+          ],
+          "versionId": "08f75398-3b39-4a97-a604-e324c8b30a34",
+          "lastUpdated": "2019-11-01T19:22:10.504+00:00"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/birthPlace",
+            "valueAddress": {
+              "city": "Portsmouth",
+              "country": "UK"
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-disability",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "95859009",
+                  "display": "Amputation of foot"
+                }
+              ]
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://www.miniaf.alp/citreg",
+            "value": "100005"
+          },
+          {
+            "system": "http://www.alpha-hospital.alp/patient-id",
+            "value": "100005"
+          }
+        ],
+        "name": [
+          {
+            "family": "Everyman",
+            "given": [
+              "Alan"
+            ],
+            "prefix": [
+              "Mr."
+            ]
+          },
+          {
+            "use": "old",
+            "family": "Jones"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "020 7422 3666",
+            "use": "home"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1955-01-01",
+        "address": [
+          {
+            "line": [
+              "62, Anystreet"
+            ],
+            "city": "Alphatown",
+            "postalCode": "59450"
+          }
+        ],
+        "communication": [
+          {
+            "language": {
+              "coding": [
+                {
+                  "system": "urn:ietf:bcp:47",
+                  "code": "en",
+                  "display": "English"
+                }
+              ]
+            }
+          },
+          {
+            "language": {
+              "coding": [
+                {
+                  "system": "urn:ietf:bcp:47",
+                  "code": "fr",
+                  "display": "French"
+                }
+              ]
+            },
+            "preferred": true
+          }
+        ],
+        "id": "f3a9bc22-062e-459b-88aa-04b199489208"
+      }
+    },
+    {
+      "fullUrl": "https://vonk.fire.ly/Patient/d711781a-1cbf-46d2-9672-5889fc4313de",
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "resourceType": "Patient",
+        "meta": {
+          "tag": [
+            {
+              "system": "http://www.alpha.alp/use-case",
+              "code": "JSON"
+            }
+          ],
+          "versionId": "f78f02ab-51c6-466d-9fcf-5d43b698765e",
+          "lastUpdated": "2019-11-01T19:20:41.359+00:00"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/birthPlace",
+            "valueAddress": {
+              "city": "Portsmouth",
+              "country": "UK"
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-disability",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "95859009",
+                  "display": "Amputation of foot"
+                }
+              ]
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://www.miniaf.alp/citreg",
+            "value": "1020301111"
+          },
+          {
+            "system": "http://www.alpha-hospital.alp/patient-id",
+            "value": "622881111"
+          }
+        ],
+        "name": [
+          {
+            "family": "Everyman",
+            "given": [
+              "JSON"
+            ],
+            "prefix": [
+              "Mr."
+            ]
+          },
+          {
+            "use": "old",
+            "family": "Jones"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "020 7422 3666",
+            "use": "home"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1922-02-16",
+        "address": [
+          {
+            "line": [
+              "62, Anystreet"
+            ],
+            "city": "Alphatown",
+            "postalCode": "59450"
+          }
+        ],
+        "communication": [
+          {
+            "language": {
+              "coding": [
+                {
+                  "system": "urn:ietf:bcp:47",
+                  "code": "en",
+                  "display": "English"
+                }
+              ]
+            }
+          },
+          {
+            "language": {
+              "coding": [
+                {
+                  "system": "urn:ietf:bcp:47",
+                  "code": "fr",
+                  "display": "French"
+                }
+              ]
+            },
+            "preferred": true
+          }
+        ],
+        "id": "d711781a-1cbf-46d2-9672-5889fc4313de"
+      }
+    },
+    {
+      "fullUrl": "https://vonk.fire.ly/Patient/0f980188-8b07-4ce5-a63b-320c7b1daf0d",
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "resourceType": "Patient",
+        "meta": {
+          "tag": [
+            {
+              "system": "http://www.alpha.alp/use-case",
+              "code": "Alan"
+            }
+          ],
+          "versionId": "41e189d1-c8fe-4ec9-bbca-457092322a5f",
+          "lastUpdated": "2019-11-01T19:16:55.545+00:00"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/birthPlace",
+            "valueAddress": {
+              "city": "Portsmouth",
+              "country": "UK"
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-disability",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "95859009",
+                  "display": "Amputation of foot"
+                }
+              ]
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://www.miniaf.alp/citreg",
+            "value": "100005"
+          },
+          {
+            "system": "http://www.alpha-hospital.alp/patient-id",
+            "value": "100005"
+          }
+        ],
+        "name": [
+          {
+            "family": "Everyman",
+            "given": [
+              "Alan"
+            ],
+            "prefix": [
+              "Mr."
+            ]
+          },
+          {
+            "use": "old",
+            "family": "Jones"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "020 7422 3666",
+            "use": "home"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1955-01-01",
+        "address": [
+          {
+            "line": [
+              "62, Anystreet"
+            ],
+            "city": "Alphatown",
+            "postalCode": "59450"
+          }
+        ],
+        "communication": [
+          {
+            "language": {
+              "coding": [
+                {
+                  "system": "urn:ietf:bcp:47",
+                  "code": "en",
+                  "display": "English"
+                }
+              ]
+            }
+          },
+          {
+            "language": {
+              "coding": [
+                {
+                  "system": "urn:ietf:bcp:47",
+                  "code": "fr",
+                  "display": "French"
+                }
+              ]
+            },
+            "preferred": true
+          }
+        ],
+        "id": "0f980188-8b07-4ce5-a63b-320c7b1daf0d"
+      }
+    },
+    {
+      "fullUrl": "https://vonk.fire.ly/Patient/20847382-5598-4863-8e3d-4016c88c4158",
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "resourceType": "Patient",
+        "meta": {
+          "tag": [
+            {
+              "system": "http://www.alpha.alp/use-case",
+              "code": "Alan"
+            }
+          ],
+          "versionId": "24457445-2139-452d-af70-9fa479656d39",
+          "lastUpdated": "2019-11-01T19:15:35.644+00:00"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/birthPlace",
+            "valueAddress": {
+              "city": "Portsmouth",
+              "country": "UK"
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-disability",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "95859009",
+                  "display": "Amputation of foot"
+                }
+              ]
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://www.miniaf.alp/citreg",
+            "value": "1020304050"
+          },
+          {
+            "system": "http://www.alpha-hospital.alp/patient-id",
+            "value": "100005"
+          }
+        ],
+        "name": [
+          {
+            "family": "Everyman",
+            "given": [
+              "Alan"
+            ],
+            "prefix": [
+              "Mr."
+            ]
+          },
+          {
+            "use": "old",
+            "family": "Jones"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "020 7422 3666",
+            "use": "home"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1955-01-01",
+        "address": [
+          {
+            "line": [
+              "62, Anystreet"
+            ],
+            "city": "Alphatown",
+            "postalCode": "59450"
+          }
+        ],
+        "communication": [
+          {
+            "language": {
+              "coding": [
+                {
+                  "system": "urn:ietf:bcp:47",
+                  "code": "en",
+                  "display": "English"
+                }
+              ]
+            }
+          },
+          {
+            "language": {
+              "coding": [
+                {
+                  "system": "urn:ietf:bcp:47",
+                  "code": "fr",
+                  "display": "French"
+                }
+              ]
+            },
+            "preferred": true
+          }
+        ],
+        "id": "20847382-5598-4863-8e3d-4016c88c4158"
+      }
+    },
+    {
+      "fullUrl": "https://vonk.fire.ly/Patient/9e60b080-8630-4152-a749-d4ba77b3d648",
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "resourceType": "Patient",
+        "meta": {
+          "tag": [
+            {
+              "system": "http://www.alpha.alp/use-case",
+              "code": "Adam"
+            }
+          ],
+          "versionId": "93469809-ee63-4a48-b791-0b861447304c",
+          "lastUpdated": "2019-11-01T19:15:02.275+00:00"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b> Patient: </b> Adam Everyman3, M, 1999-09-09, Nat.id 1020309999, AlphaId 622889999\n      </p></div>"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/birthPlace",
+            "valueAddress": {
+              "city": "Portsmouth",
+              "country": "UK"
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-disability",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "95859009",
+                  "display": "Amputation of foot"
+                }
+              ]
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://www.miniaf.alp/citreg",
+            "value": "1020309999"
+          },
+          {
+            "system": "http://www.alpha-hospital.alp/patient-id",
+            "value": "622889999"
+          }
+        ],
+        "name": [
+          {
+            "family": "Everyman3",
+            "given": [
+              "Adam"
+            ],
+            "prefix": [
+              "Mr."
+            ]
+          },
+          {
+            "use": "old",
+            "family": "Jones"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "020 7422 3666",
+            "use": "home"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1999-09-09",
+        "address": [
+          {
+            "line": [
+              "62, Anystreet"
+            ],
+            "city": "Alphatown",
+            "postalCode": "59450"
+          }
+        ],
+        "communication": [
+          {
+            "language": {
+              "coding": [
+                {
+                  "system": "urn:ietf:bcp:47",
+                  "code": "en",
+                  "display": "English"
+                }
+              ]
+            }
+          },
+          {
+            "language": {
+              "coding": [
+                {
+                  "system": "urn:ietf:bcp:47",
+                  "code": "fr",
+                  "display": "French"
+                }
+              ]
+            },
+            "preferred": true
+          }
+        ],
+        "id": "9e60b080-8630-4152-a749-d4ba77b3d648"
+      }
+    }
+  ],
+  "total": 76,
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://vonk.fire.ly/Patient?_sort=-_lastUpdated&_count=10&_skip=0"
+    },
+    {
+      "relation": "next",
+      "url": "https://vonk.fire.ly/Patient?_sort=-_lastUpdated&_count=10&_skip=10"
+    },
+    {
+      "relation": "last",
+      "url": "https://vonk.fire.ly/Patient?_sort=-_lastUpdated&_count=10&_skip=70"
+    }
+  ],
+  "id": "fdd7bddb-5807-4c56-a58f-dda80deedd6d",
+  "meta": {
+    "versionId": "d7e9241c-5f73-467f-86e6-786ec8fb4944",
+    "lastUpdated": "2019-11-07T11:26:04.383+00:00"
+  }
+}
