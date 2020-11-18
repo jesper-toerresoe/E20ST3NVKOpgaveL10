@@ -65,7 +65,7 @@ namespace WpfApp1.Boundary
 
         public void Boundary_HL7FHIR_REST()
         {
-            var client = new FhirClient("https://vonk.fire.ly");
+            var client = new FhirClient("https://aseecest3fhirservice.azurewebsites.net/");
             //var k = new Fhir
             //client.PreferredFormat = ResourceFormat.Unknown;
             // client.UseFormatParam = true; //depends on the sever  format in url or in header (default)
@@ -76,7 +76,7 @@ namespace WpfApp1.Boundary
             //var pat_A = client.Read<Patient>(location_A);
             // or
             //var pat_A = client.Read<Patient>("Patient/58689c4c-daf4-450b-a1ca-7c1846bb65b5");
-            var pat_A = client.Read<Patient>("Patient/b46b6f29-fb93-4929-a760-ee722cb37f94");
+            var pat_A = client.Read<Patient>("Patient/5425b28a-7d57-4edb-9700-58bbecc52fc1");
 
             //b46b6f29-fb93-4929-a760-ee722cb37f94
 
@@ -95,7 +95,7 @@ namespace WpfApp1.Boundary
             var created_pat = client.Create(pat_C);
 
             //After succesfully Create, retrive the patient ID from created_pat, and use the ID to retrieve the patient in Postman/AdvancedRESTClient
-            client.Delete(created_pat);//Clean up the test. Check result in Postman/AdvancedRESTClient
+         //  client.Delete(created_pat);//Clean up the test. Check result in Postman/AdvancedRESTClient
         }
 
         private Patient makeAPatient()

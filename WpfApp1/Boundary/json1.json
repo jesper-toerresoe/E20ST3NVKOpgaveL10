@@ -1,0 +1,118 @@
+{
+  "resourceType": "Patient",
+  "id": "6d9692e0-6cd5-402c-9bdf-199b27e9f6c8",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2020-06-11T08:02:00.607+00:00"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/birthPlace",
+      "valueAddress": {
+        "city": "Aarhus N"
+      }
+    }
+  ],
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/sid/us-ssn",
+      "value": "010119-4589"
+    }
+  ],
+  "name": [
+    {
+      "use": "official",
+      "family": "Julemand",
+      "given": [
+        "Christiane",
+        "A.H."
+      ],
+      "prefix": [
+        "Mrs."
+      ]
+    },
+    {
+      "use": "nickname",
+      "given": [
+        "Chrissy"
+      ]
+    }
+  ],
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "1234",
+      "use": "mobile"
+    },
+    {
+      "system": "phone",
+      "value": "(03) 5555 6473",
+      "use": "work",
+      "rank": 1
+    },
+    {
+      "system": "phone",
+      "value": "(03) 3410 5613",
+      "use": "mobile",
+      "rank": 2
+    },
+    {
+      "system": "phone",
+      "value": "(03) 5555 8834",
+      "use": "old",
+      "period": {
+        "end": "2014"
+      }
+    }
+  ],
+  "gender": "female",
+  "birthDate": "2019-01-01",
+  "_birthDate": {
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/patient-birthTime",
+        "valueDateTime": "2019-01-01T00:00:00+01:00"
+      }
+    ]
+  },
+  "deceasedBoolean": false,
+  "address": [
+    {
+      "line": [
+        "Finlandsgade 22"
+      ],
+      "city": "Aarhus N",
+      "state": "Jylland",
+      "postalCode": "8200",
+      "country": "Denmark"
+    }
+  ],
+  "contact": [
+    {
+      "relationship": [
+        {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/v2/0131",
+              "code": "N"
+            }
+          ]
+        }
+      ],
+      "name": {
+        "family": "Julemand",
+        "given": [
+          "Kund"
+        ]
+      },
+      "telecom": [
+        {
+          "system": "phone",
+          "value": "1234",
+          "use": "mobile"
+        }
+      ],
+      "gender": "female"
+    }
+  ]
+}
